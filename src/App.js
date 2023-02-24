@@ -1,6 +1,9 @@
+import Main from './pages/Main';
+import './styles/global.scss';
+
 function App() {
   return (
-    <h1>app</h1>
+    <Main/>
   );
 }
 
