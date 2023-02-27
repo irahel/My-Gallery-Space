@@ -24,12 +24,12 @@ body::-webkit-scrollbar-thumb {
   font-family: "GandhiSansRegular";
   src: local("GandhiSansRegular"), url("../assets/fonts/GandhiSans-Regular.otf") format("truetype");
   font-weight: 500;
-  display: swap;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "GandhiSansBold";
   src: local("GandhiSansBold"), url("../assets/fonts/GandhiSans-Bold.otf") format("truetype");
   font-weight: 500;
-  display: swap;
+  font-display: swap;
 }
