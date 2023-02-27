@@ -1,6 +1,7 @@
 import Header from "../../components/Header";
 import Menu from "../../components/Menu";
 import Banner from "../../components/Banner";
+import Footer from "../../components/Footer";
 import styles from './Main.module.scss';
 
 function Main() {
@@ -13,6 +14,7 @@ function Main() {
         <Banner />
       </section>
     </main>
+    <Footer/>
 
     </>
   )
