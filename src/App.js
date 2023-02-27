@@ -3,7 +3,9 @@ import './styles/global.scss';
 
 function App() {
   return (
-    <Main/>
+    <>
+    <Main />
+    </>
   );
 }
 
