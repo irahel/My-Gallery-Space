@@ -1,6 +1,6 @@
 import Header from "../../components/Header";
 import Menu from "../../components/Menu";
-import Banner from './banner.png';
+import Banner from "../../components/Banner";
 import styles from './Main.module.scss';
 
 function Main() {
@@ -10,10 +10,7 @@ function Main() {
     <main>
       <section className={styles.main}>
         <Menu />
-        <div className={styles.main__img}>
-          <h1>A galeria mais completa do espaço</h1>
-          <img src={Banner} alt="A terra vista do espaço" />
-        </div>
+        <Banner />
       </section>
     </main>
 
