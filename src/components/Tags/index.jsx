@@ -1,15 +1,12 @@
 import styles from './Tags.module.scss'
 
-function Tags() {
+function Tags({tags, filterPhotos, resetFilter}) {
   return (
     <div className={styles.tags}>
         <p>Filtre por tags:</p>
         <ul className={styles.tags__lista}>
-            <li>Estrelas</li>
-            <li>Galáxias</li>
-            <li>Planetas</li>
-            <li>Luas</li>
-
+            {tags.map((tag) => <li key={tag} onClick={() => filterPhotos(tag)}>{tag}</li>)}
+            <li onClick={()=> resetFilter()}>Todas</li>
         </ul>
     </div>
   )
